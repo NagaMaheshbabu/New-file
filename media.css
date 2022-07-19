@@ -1,0 +1,56 @@
+h1{
+    font-size: 5em;
+}
+
+@media (max-width:768px)
+{
+   div> h1
+    {
+        font-size: 4em;
+    }
+    nav {
+flex-direction: column;
+    }
+    nav>a
+    {
+
+        flex-direction: column;
+    }
+}
+@media (max-width:200px)
+{
+    div>h1
+    {
+        font-size: 2em;
+    }
+}
+section{
+    margin: 50px;
+   
+}
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav>div
+{
+   
+    width: 40%;
+    border-radius:3px;
+    display: flex;
+    justify-content: space-around;
+
+}
+div>a:nth-of-type(n){
+width: 200px;
+border-radius: 4px;
+text-align: center;
+padding: 10px;
+background-color:darkturquoise;
+}
+  
+a{
+    text-decoration: none;
+}

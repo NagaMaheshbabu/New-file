@@ -1,0 +1,178 @@
+.post button {
+    color: red;
+}
+
+h3{
+    width: 115px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: medium ;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 1px solid #a88c32;
+    border-radius: 30px;
+    background-color:#a8325f;
+    padding: 2px 5px;
+    text-decoration: underline;
+
+
+}
+h3::first-letter
+{
+    color:black;
+}
+form{
+    
+    font-family: monospace;
+    padding: 0 250px;
+    
+ 
+}
+
+body {
+    background-color: gray;
+}
+input[type="button"]
+{
+    
+    background-color: #04aa6d;
+    color: #fff;
+   padding: 3px;
+  
+    
+}
+
+
+fieldset {
+    background-color: darkgoldenrod;
+    padding: 2px;
+    border-left:5px solid red;
+    position: static;
+    
+   
+    
+}
+
+#sub {
+    font-size: large;
+    font-weight: bold;
+    box-shadow:darkviolet;
+    transition: margin-right 1s ;
+    transition-timing-function:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+    
+  
+}
+#sub  :active{
+    background-color: yellow;
+}
+
+#sub:hover{
+    margin-right: 100px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    
+}
+input[type="radio"]:checked
+{
+    box-shadow: 0 0 0 1px blue;
+    
+    
+
+}
+#web
+{
+    border: 3px solid green;
+    cursor: pointer;
+    font-size: small;
+    transition: margin-left 0.5s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+   
+}
+
+#web:hover
+{
+    margin-left: 100px;
+    font-family: cursive;
+    font-size: large;
+    background-color: #ff0051;
+    color: #fff;
+}
+
+input[type="checkbox"]:checked
+{
+box-shadow: 0 0 0 1px pink;
+
+}
+input:checked+label
+{
+    color: red;
+}
+input:checked+span{
+    color: red;
+}
+#ship option{
+  
+    background-color: green;
+    border-radius: 3px ;
+    font-family:  cursive;
+    color: white;
+}
+#sub option:checked
+{
+    color: red;
+}
+input[type="text"]:nth-of-type(n)
+{
+    background-color:silver;
+    font-family: monospace;
+    border-top: 4px;
+    border-left-width: 4px ;
+    border-left-color:#bea925 ;
+    
+
+   
+}
+
+input[type="button"]:hover
+{
+    background-color: #057905;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+p::first-letter
+{
+    font-size: 20px;
+    color: red;
+
+}
+p::first-line
+{
+    color:darkblue;
+}
+p::selection
+{
+    color: darkseagreen;
+    background-color: #057905;
+}
+
+p::before{
+    content: "This is a demo lorem paragraph  ";
+    background-color: #04aa6d;
+    color: #fff;
+}
+p::after
+{
+    content: "<---created by Mahesh---->";
+    background-color:purple;
+    color: white;
+
+}
+p{
+    margin-left: 8px;
+    letter-spacing: 1px;
+}

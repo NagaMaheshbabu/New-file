@@ -1,0 +1,65 @@
+h2 {
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 2px green;
+    background-color: green;
+    color: #000;
+    text-decoration: #fff underline;
+
+    font: bolder red;
+
+
+
+}
+
+input[type="text"]:nth-of-type(2n) {
+    border: 2px solid red;
+}
+button:active
+{
+    background-color: #2f3f2f;
+    color: blue;
+}
+
+button:hover{
+    text-decoration: underline blue;
+    color: whitesmoke;
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+form {
+    border: gray;
+    text-decoration: dashed;
+    text-align: center;
+    line-height: 2em;
+
+}
+
+a[href*="Help"] {
+    color: gray;
+    text-decoration: none;
+}
+
+a[href*="contact"] {
+    color: lightsteelblue;
+}
+li>a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline black;
+
+}
+input[type="radio"]:checked
+{
+box-shadow: 0 0 0  1px gray;
+color: red;
+}
+input[type="radio"] label:checked{
+    box-shadow: 0 0 0 3px lime;
+    color: red;
+}

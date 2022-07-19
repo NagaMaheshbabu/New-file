@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+    width: 100px;
+    height: 400px;
+    display: block;
+   line-height: 80px;
+   text-align: center;
+    border: 1px solid black;
+    margin-top: 70px;
+    
+}
+div>div{
+    
+    background-color: hsl(0, 0%, 18.82%);
+
+}
+div>div>div:hover{
+    background-color:  #717171;
+    cursor: pointer;
+   
+}
+div>div>div>a
+{
+    color: aliceblue;
+    text-decoration: none;
+}

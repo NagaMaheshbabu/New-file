@@ -1,0 +1,33 @@
+img{
+    width: 29.2%;
+    margin:calc(10% /6);
+transition: all 1s 200ms;
+box-shadow: 3px 3px 3px red;
+
+}
+nav{
+    margin-left:calc(10% /6);
+    padding: 1em 0;
+    width: 30px;
+    min-width: initial;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+
+
+img:hover{
+    border-radius: 5px ;
+    border: 1px solid rgba(200,200,190,0.7);
+    transform: translateY(-0.5em);
+    
+
+}
+body{
+    background-color:rgba(154, 219, 207, 0.37)
+}

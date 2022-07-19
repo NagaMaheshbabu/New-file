@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+</body>
+<script>
+function fakeRequest(url)
+{
+return new Promise((resolve,reject)=>
+{
+    let random = Math.floor(Math.random() *4500)+500;
+    setTimeout(()=>
+    {
+(random > 3000) ? reject('Request TimeOut!') : resolve(`Your url is ${url}`);
+    },random)
+})
+
+}
+
+async function callingFunction()
+{
+ try{
+    let data1 = await fakeRequest('www.google.com');
+   console.log(data1);
+   let data2 = await fakeRequest('www.Yahoo.com');
+   console.log(data2)
+   let data3 = await fakeRequest('www.youtube.com');
+   console.log(data3)
+ }
+ catch(e)
+ {
+    console.log(e);
+ }
+   
+}
+
+callingFunction()
+
+
+</script>
+
+</html>

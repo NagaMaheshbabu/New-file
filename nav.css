@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar {
+   
+text-align: center;
+background-color: green;
+}
+.menu-bar ul{
+  
+list-style: none;
+    display:inline-flex;
+    color: white;
+    
+}
+.menu-bar ul li {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+   
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.item1,.sub-menu-1,.menu-bar ul  :hover {
+    background-color: black;
+    border-radius: 5px;
+}
+.sub-menu
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu 
+{
+    display: block;
+    position:absolute; 
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+
+
+

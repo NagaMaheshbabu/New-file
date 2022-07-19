@@ -1,0 +1,44 @@
+body
+{
+background-color:rgba(200, 100, 170, 0.4);
+}
+
+ul>li
+
+{
+    list-style: none;
+    line-height: 50px;
+ 
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+   
+}
+li>a:hover
+{
+    border-bottom: 5px solid white;
+}
+@media (min-width :750px)
+{
+   header>nav> ul>li {
+display: inline;
+flex-direction: row;
+font-size: large;
+margin-right: 30px;
+
+    };
+    ul>li>a
+    {
+        
+        text-decoration: none;
+    }
+
+    ul>li>a:hover{
+        transition: all 500mss 500ms ease-in;
+border-bottom: 5px solid white;
+    }
+}

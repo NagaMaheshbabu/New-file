@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch joy",
+            "request": "launch",
+            "mainClass": "joy",
+            "projectName": "Images_2435f651"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open Untitled-1.html",
+            "file": "d:\\Images\\Untitled-1.html"
+        }
+    ]
+}

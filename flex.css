@@ -1,0 +1,42 @@
+#con
+{
+    width: 90%;
+    
+    border: 2px solid black;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   font-size: large;
+   
+   
+}
+div >#one
+{
+margin: 40px;
+}
+
+
+
+ div{
+   
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    
+   
+
+}
+div:nth-of-type(2)
+{
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+div:nth-of-type(5)
+{
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+

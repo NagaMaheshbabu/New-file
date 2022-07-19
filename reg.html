@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+</head>
+
+
+<body>
+    <script src="script.js"></script>
+    <h2>Race registration!</h2>
+    <form action="/demo">
+        <label for="Firstname">FirstName :</label>
+        <input type="text" name="first" id="Firstname" placeholder="firstname" required acroynm title="enter firstname">
+        <label for="lastname">Lastname :</label>
+        <input type="text" name="" id="lastname" name="lastname" placeholder="lastName" acroynm title="enter lastname">
+
+        <br>
+        <label> Select a race : </label>
+        <div>
+
+
+
+            <input type="radio" name="race" id="Fun" value="Fun Run 5k">
+            <label for="Fun">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="Half" value="Half Marathon">
+            <label for="Half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="Full" value="Full Maraton">
+            <label for="Full">Full Marathon</label>
+        </div>
+        <label for="email">Enter Email : </label>
+        <input type="email" name="email" id="email" required placeholder="Enter email" acroynm
+            title="enter valid email">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="enter password" required>
+        <br>
+        <br>
+        <label for="age">Select Age :</label>
+        <select id="age">
+            <option value="under 18" selected>Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br>
+        <button>Register</button>
+
+
+
+
+    </form>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Help">Help</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <span class="material-symbols-outlined">
+            home
+            </span>
+    </div>
+<script src="reg.js"></script>
+</body>
+
+</html>

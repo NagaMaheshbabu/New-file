@@ -1,0 +1,442 @@
+*
+{
+    box-sizing: border-box;
+    user-select: none;
+}
+section
+{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+    
+
+}
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+#head
+{
+   
+    color: black;
+    padding: 10px;
+  display: flex;
+  flex-direction:block;
+    justify-content: space-between;
+   
+   
+    margin: 10px 0 0 10px;
+}
+
+#logo > a
+{
+  
+   text-decoration: none;
+color: red;
+font-weight: bolder;
+font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(min-width:750px)
+{
+    #logo
+    {
+        font-size: xx-large;
+        margin-bottom: 10px;
+        text-decoration: none;
+         
+    }
+}
+
+#span2
+{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#span2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media(min-width:750px)
+{
+    #span2
+
+
+    {
+        font-size: larger;
+    }
+}
+#content
+{
+    display: block;
+   margin: 50px  0 0 50px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media (min-width:750px){
+    #content{
+        margin-left: 130px;
+      
+    }
+
+}
+.item
+{
+line-height: 30px;
+word-spacing: 2px;
+
+font-family: Arial, Helvetica, sans-serif;
+list-style: none;
+font-size: large;
+
+}
+.material-symbols-outlined
+{
+    font-size: xx-large;
+    color: red;
+    opacity: 0.9;
+   margin-top: 1px;
+    
+   
+}
+#div
+{
+    width: auto;
+    margin:20px 0 0 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+}
+.plans
+{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+    background-color:rgba(200, 0, 0, 0.6);
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: -1px;
+   
+}
+.plans[data-active="active"],
+.plans:hover{
+    background-color: red;
+    cursor: pointer;
+}
+@media(min-width:750px)
+{
+    #div
+    {
+        margin-left: 450px;
+       
+       
+    }.plans
+    {
+        padding: 60px;
+        margin-right: 9px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: -1px;
+    }
+    .plans[data-active="active"],
+    .plans:hover{
+        background-color: red;
+        cursor: pointer;
+    }
+}
+
+#month-price
+{
+    display: flex;
+    justify-content: center;
+
+}
+@media(min-width:750px)
+{
+    #month-price
+    {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+}
+.price,#quality,#res,#smart,#first,#second,#tab1
+{
+    display: block;
+    width: inherit;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+   margin-top: 15px;
+   font-weight: bold;
+  
+
+   
+   
+
+}
+
+.prices,#quality,#phone,.material-symbols-outlined
+{
+    margin-right: 20px;
+
+  
+}
+hr{
+    width: 94%;
+   
+}
+
+@media(min-width:750px)
+{
+    .price,#quality,#res,#first,#smart,#second,#tab1
+    {
+       
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 420px;
+      font-weight: bold;
+      margin-right: 100px;
+      align-items: center;
+    
+       
+    }
+    .prices,#q1,.pixels,#phone,.material-symbols-outlined,.tablet
+    {
+       margin-right: 60px;
+       margin-left: 30px;
+    }
+    .material-symbols-outlined
+    {
+       margin: left 50px;
+       padding: 5px;
+        }
+ 
+      
+
+    #month-price
+    {
+        position: relative;
+        top: 30px;
+     
+      
+    }
+
+}
+
+
+
+
+#q1
+
+{
+    margin-top: 10px;
+}
+
+#mobile
+{
+    display: flex;
+    flex-direction: column;
+  
+    list-style: none;
+    margin-left: 40px;
+}
+
+#comp
+{
+   
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 250px;
+height: 100px;
+font-size: xx-large;
+color: red;
+margin-left: 140px;
+
+
+}
+
+@media (min-width:700px)
+{
+    #comp
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        margin-left: 590px;
+    }
+  
+
+}
+#computer
+{
+    width: 300px;
+  font-weight: bold;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+  height: 50px;
+   bottom: 50px;
+   left: 140px;
+    
+}
+@media (min-width:700px)
+{
+    #computer
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 480px;
+        
+    }
+    #tv
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 460px;
+    }
+  #computer span {      
+       padding-right: 5px;
+       margin-left: 15px;
+       text-align: center;
+   }
+}
+#computer span{
+    margin-right: 25px;
+}
+#tv
+{
+    width: 280px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 8.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+#tel
+{
+    width: 250px;
+    height: inherit;
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media(min-width:700px)
+{
+    #tel
+    {
+        width: 375px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+        margin-left: 455px;
+     
+    }
+
+}
+p
+{
+    position: relative;
+    bottom: 160px;
+    font-size: small;
+    margin-bottom: 20px;
+    animation-name: fadeInOut;
+animation-duration: 2s;
+animation-iteration-count: 1;
+
+  
+}
+@keyframes fadeInOut
+{
+    from
+    {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    
+    to
+    {
+        margin-left:0%;
+        width: 100%;
+    }
+}
+#term
+{
+    text-decoration: none;
+}
+
+#term:hover
+{
+    text-decoration: underline;
+}
+
+#button
+{
+
+position: relative;
+bottom:100px;
+left:30px;
+padding: 10px;
+background-color: red;
+text-align: center;
+border-radius: 10px;
+
+}
+#button:hover{
+text-decoration: underline;
+}
+#last
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media(min-width:750px)
+{
+    #button
+    {
+        width: 300px;
+        height: 50px;
+        background-color: red;
+        margin-left: 400px;
+       
+    }
+    
+}
+
+
+
+
+
+

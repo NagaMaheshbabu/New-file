@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+}
+main
+{
+    width: 50%;
+    margin: 5% auto;
+    background-size: cover;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+nav>p{
+
+
+font-family: 'Dancing Script', cursive;
+}
